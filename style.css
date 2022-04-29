@@ -3,6 +3,10 @@
 :root {
  --color-black: #222;
  --color-p: #465b52;
+ --bg-color: #E3E6F3;
+ --link-color: #1a1a1a;
+ --hover-color: #088178;
+ --transition: 0.3s ease;
 }
 
 * {
@@ -53,7 +57,65 @@ body {
 
 /* Header Start */
 
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: var(--bg-color);
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--link-color);
+  transition: var(--transition);
+}
+  
+#navbar li a:hover, 
+#navbar li a.active {
+  color: var(--hover-color);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: '';
+  width: 30%;
+  height: 2px;
+  background: var(--hover-color);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+
 /* Home Page */
 
 /* Shop Page */
+
+/* Single Product */
+
+/* Blog Page */
+
+/* About Page */
+
+/* Contact Page */
+
+/* Cart Page */
+
+
 
