@@ -1,5 +1,7 @@
-# DolcePeccato
-Landing Page of Dolce Peccato ~ Pijamas &amp; Bras 
+# Landing Page of Dolce Peccato ~ Pijamas &amp; Bras 
 
-Ecommerce for a very good friend of mine.
+Only the Landing Page... 
 
+Responsive and other pages I finished in other Repository. 
+
+I get problems when want to push!!
